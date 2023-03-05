@@ -1,7 +1,7 @@
 # 📈 Cuadro de mandos personal 📊
  
-> Usa este repositorio para crear un cuadro de mandos personal con Streamlit. Documenta los siguientes apartados del README.
-> Incluye en tu README la url de donde has publicado tu aplicación. Pon la `url` también en el `About` de tu repositorio.
+​Encuentra la aplicación desplegada en el siguiente repositorio:
+https://estherdeleon-streamlit-2---cuadro-de-mandos-personal-app-sbh3y5.streamlit.app/
 
 ## Objetivo
 Diseño de un cuadro de mandos personal para visualización e interacción con un conjunto de datos.
@@ -24,8 +24,7 @@ Basicamente son los datos de sus propiedades en New York, los barrios donde est�
 # 
 
 
-## Prepara tu aplicación.
-La aplicación se llamará `app.py`. Añade un `requirements.txt` con las dependencias de tu aplicación. Ve actualizándolo a medida que vayas añadiendo librerías.
+
 
 ## Carga y análisis de conjunto de dato con pandas
 Despues de cargar los datos, he hecho varios print para ver los campos y las columnas del csv.
@@ -51,5 +50,5 @@ Y hechos los cambios, he ejecutado el siguiente comando:
 
 ```
 
-​
+
 
