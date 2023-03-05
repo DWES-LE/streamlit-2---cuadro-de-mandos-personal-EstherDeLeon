@@ -7,28 +7,49 @@
 Diseño de un cuadro de mandos personal para visualización e interacción con un conjunto de datos.
 
 ## Los datos
-Elige un conjunto de datos que te interese: educación, deportes, trabajo, música, econocomía, etc. 
+Los datos que estaré utilizando son de la compañía Airbnb.
 
 ## Búsqueda de los datos
-Busca una fuente para tus datos. Puedes usar una API de un portal de datos abiertos, un conjunto ya publicado, recopilar personalmente datos por scraping, etc.
+El dataset que voy a usar lo voy a sacar de la web Kaggle.
 
 ## Documentación de los datos
-Documenta los datos que vas a usar y su origen. De dónde los has sacado, fuentes, etc. Describe los campos, los valores, las unidades, etc.
+
+
+Los datos que voy a usar son de la empresa Airbnb, mas concretamente de sus datos en la ciudad de New York, he conseguido estos datos mediante un dataset en la web de Keaggle.
+Los campos que hay en este dataset son:
+id, name, host_id, neighbourhood, roomtype, price, number_of_reviews, availability ,etc. 
+
+Los valores de estos campos son mayoritariamente numéricos y de texto.
+Basicamente son los datos de sus propiedades en New York, los barrios donde están, la disponibilidad que tienen, los precios que manejan...
+# 
+
 
 ## Prepara tu aplicación.
 La aplicación se llamará `app.py`. Añade un `requirements.txt` con las dependencias de tu aplicación. Ve actualizándolo a medida que vayas añadiendo librerías.
 
 ## Carga y análisis de conjunto de dato con pandas
-Carga el conjunto de datos en un dataframe de pandas y realiza un análisis exploratorio de los datos.
+Despues de cargar los datos, he hecho varios print para ver los campos y las columnas del csv.
 
 ## Visualización de los datos
-Prepara visualizaciones diferentes del dataframe en texto (tablas) o gráficas (histogramas, barras, etc.). Puedes usar matplotlib, seaborn, plotly, etc.
+He preparado visualizaciones con ptl y con el mismo streamlit.
 
 ## Diseña la interacción que van a tener tus datos
-Qué inputs y outputs tendrán tus datos. 
+He sacado la tabla completa y despues he creado tres selectbox que sacan por pantalla tablas filtradas según la seleccion que hagas en cada caso.
+
+Despúes he creado varios gráficos y algun grafico de porcentaje que hace que los datos sean más sencillos de visualizar.
 
 ## Prepara la aplicación (cuadro de mandos) con Streamlit
-Prepara y prueba la aplicación.
+Para probar la aplicación una vez clonado el repositorio: 
 
-## Publica la aplicación.
-Publica la aplicación en Streamlit Cloud, en Heroku o en el servicio que prefieras https://docs.streamlit.io/streamlit-community-cloud/get-started/deploy-an-app
+```bash
+git clone https://github.com/DWES-LE/streamlit-2---cuadro-de-mandos-personal-EstherDeLeon.git
+```
+Y hechos los cambios, he ejecutado el siguiente comando:
+```bash
+
+ streamlit run app.py
+
+```
+
+​
+
